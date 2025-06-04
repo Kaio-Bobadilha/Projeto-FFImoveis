@@ -47,6 +47,7 @@ public class ControleDeReservas {
         this.ValorTotal = ValorTotal;
     }
 
+
     // get e set
 
     public int getId() {return id;}
@@ -69,4 +70,10 @@ public class ControleDeReservas {
 
     public double getValorTotal() {return ValorTotal;}
     public void setValorTotal(double valorTotal) {ValorTotal = valorTotal;}
+
+    public StatusReserva getStatusReserva() {
+        return StatusReserva; // Retorna o valor do enum StatusReserva
+    }
+    public void setStatusReserva(StatusReserva statusReserva) {
+    }
 }

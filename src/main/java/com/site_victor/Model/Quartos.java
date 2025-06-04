@@ -51,4 +51,9 @@ public class Quartos {
 
     public double getPrecoDiaria() {return precoDiaria;}
     public void setPrecoDiaria(double precoDiaria) {this.precoDiaria = precoDiaria;}
+
+    public StatusQuarto getStatus() {return status;}
+    public void setStatus(StatusQuarto novoStatus) {
+
+    }
 }
